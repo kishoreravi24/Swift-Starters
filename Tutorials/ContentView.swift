@@ -26,7 +26,7 @@ struct ContentView: View {
                             .padding()
                         Image(systemName: "heart.fill")
                             .padding()
-                        Text("number of times heart clicker: \(numberOfTimes)")
+                        Text("number of times heart clicked: \(numberOfTimes)")
                     }
                 } else {
                     VStack {
